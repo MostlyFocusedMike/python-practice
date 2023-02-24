@@ -123,7 +123,7 @@ Generally we'll work with 3 and 4 dimensional vectors called `tensors` when we g
 - A measure of how far each individual item is away from the mean
 
 ## Calculating Standard Error
-Assume we have many (`n`) individual measurements (`x`), the length of a flower stem, we can calculate the mean (`X`).
+Assume we have many (`n`) individual measurements ($x$), the length of a flower stem, we can calculate the mean ($\bar x$). The mean can also be written as $\mu$, but $\bar x$ is more common.
 
 Once we have that we can calculate the average spread of individual values around the mean by:
   - subtract each value from the mean
@@ -133,20 +133,39 @@ Then take all those individual results and add them together and then divide tha
 
 That number that we just got is called the `variance`
 
-Take the `variance` and square root it to get hte `standard deviation` (`o` (with a swoosh))
+$$
+\sigma^2 = \frac{\sum_{i=1}^{n}(x_i - \bar x)^2} {n - 1}
+$$
+
+Take the `variance` and square root it to get hte `standard deviation` ($\sigma$)
+
+$$
+\sigma = \sqrt{\frac{\sum_{i=1}^{n}(x_i - \bar x)^2} {n - 1}}
+$$
 
 FINALLY to get the standard error it's
 
-SE = `o` / n<sup>1/2</sup>
+$$
+SE = \sigma / \sqrt{n}
+$$
 
-What that all boils down to is the smalled the standard error is, the more tightly clustered the data points are
+What that all boils down to is the smaller the standard error is, the more tightly clustered the data points are
 
-We can interpret the value as the uncertainty we have about the mean (`X`) value
+We can interpret the value as the uncertainty we have about the mean ($\bar x$) value
 
-we can expect `X` which we don't technically know, to always be between `X` - SE and `X` + SE
+we can expect $\bar x$ which we don't technically know, to always be between $\bar x$ - SE and $\bar x$ + SE
 
 `descriptive statistics` are values derived from the data, the three we used , `mean`, `median` and `standard deviation` are common
 
+### Standard Deviation more in depth
+- The $\frac{(stuff)}{(n-1)}$ bit in the standard deviation is because we're using a sample of the population (in this case of all flowers). If we truly had the entire population, we would just use $\frac{(stuff)}{(n)}$ instead
+- Also, this is the `standard` deviation, which uses the quadratic mean. There are other deviations, like `average absolute deviation` which takes all the absolute differences from the mean and averages them
+
+  $$
+    mean~deviation = \frac{\sum |\bar x - x|}{n}
+  $$
+
+- They have different uses, not sure what though. It seems like standard gives weight to items due to the squaring, so outliers have more of an impact.
 
 ## Probability Distributions
 `probability distributions` are how the data points are distributed
@@ -158,16 +177,15 @@ This book seems to refer to the model as an "oracle" giving a prediction.
 There are many types of distributions, two common ones are `normal` and `uniform`
 
 `uniform` means all options have the same chance of appearing
-  - Mathematically written as `U(a,b)` where `U` means uniform and `a, b` are the range of data points
+  - Mathematically written as $U(a,b)$ where `U` means uniform and `a, b` are the range of data points
   - Unless specified, any real number between `a` and `b` is allowed, it's not just ints
-  - we say `x ~ U(a,b)` meaning x is the value returned by the oracle
+  - we say $x \sim U(a,b)$ meaning x is the value returned by the oracle
   - note that () are significant () means "exclude the bound" so (0,1) is all but not include 0 or 1, and [0, 1] means all including 0 and 1. Lastly, mix and match is ok [0, 1) means all not include 1, (0, 1] means all not include 0
 
 `normal` is a bell curve (sometimes called `Gaussian Distribution`), where things clump around a most likely value. The further you go from that value, the less likely your data will appear.
 
 The most likely value is the mean, and the parameter that determines how quickly the likely hood drops to 0 or 100 (without ever reaching it) is the standard deviation (sigma).
-  - `x ~ N(X, o)` would be the sample from a normal distribution
-  <!-- Todo, replace with greek mean and sigma -->
+  - $x \sim N(\bar x, \sigma)$ would be the sample from a normal distribution
 
 ## Statistical Tests
 We'll run tests on hypotheses. Typically the hypothesis is 2 sets of measurements, and whether or not those 2 measures resulted from the same parent distribution
@@ -179,18 +197,40 @@ the `t-test` is a common stat test that assumes data is `normally distributed` (
 the `t-test` is known as a `parametric test`
 <!-- todo what is a parametric -->
 
-the `Mann-Whitney U Test` is like a `t-test` but makes no assumptionas about the parent distributions.
+the `Mann-Whitney U Test` is like a `t-test` but makes no assumption's about the parent distributions.
 
 the `Mann-Whitney U Test` is a `non-parametric test`
 
-Whether or not parametric, each test gives us a `p-value` which is the probability that we sould see the test statistic  in the parent distribution
+Whether or not parametric, each test gives us a `p-value` which is the probability that we should see the test statistic in the parent distribution
 
 the `p-value` cutoff is 0.05 or less, indicating a 1-in-20 chance that we'd measure the test stat value even if the samples came from the same distribution
 
 However, that's apparently too generous, and updated scientific rigors have said if the p value is 0.05 exactly, there's likely evidence against out hypothesis
 
-if our p value is 0.01 we can be pretty confident the sample is *not* from our parent distribution.
+# Off book
+The book was confusing here is an article on p-values
 
-In that case, we can say the difference is `statistically significant`
+## Null Hypothesis
+The `null hypothesis` is the base line idea that whatever your testing is just wrong. The variables aren't linked, the groups aren't similar etc. The `alternative` hypothesis is the idea that there *is* a conncetion somehow.
 
-<!-- todo: your grasp on P value is tenuous at best, look it up later -->
+You are trying to disprove the null hypothesis
+
+- The null is written as H<sub>0</sub> and the alternative is H<sub>A</sub> or H<sub>1</sub>
+
+## Example (from article)
+> Example: Null and alternative hypothesis
+>
+> You want to know whether there is a difference in longevity between two groups of mice fed on different diets, diet A and diet B. You can statistically test the difference between these two diets using a two-tailed t test.
+>
+> *Null hypothesis (H0)*: there is no difference in longevity between the two groups.
+>
+> *Alternative hypothesis (HA or H1)*: there is a difference in longevity between the two groups.
+
+## What is a P value
+"The `p value`, or probability value, tells you how likely it is that your data could have occurred under the null hypothesis."
+
+- so you want a *low* p value because that means the probability of what your testing happening un-connectedly (in some manner) is super low
+
+So above, the H<sub>0</sub> is that diet has no impact on longevity. If your statistical tests on the two groups show each a high P value of almost 1, it means yea, life != diet.
+
+But if the P value is super low, < 0.05, that means the chances of diet != life is so low, we can reject the null hypothesis. there is a link diet == life.
