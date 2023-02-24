@@ -1,1 +1,13 @@
-{ "workbench.colorCustomizations": { "titleBar.activeForeground": "#ddd", "titleBar.activeBackground": "#14ab00", "activityBar.background": "#0b5e11", "statusBar.background": "#111", "statusBar.foreground": "#ccc" } }
+{
+  "workbench.colorCustomizations": {
+    "titleBar.activeForeground": "#ddd",
+    "titleBar.activeBackground": "#14ab00",
+    "activityBar.background": "#0b5e11",
+    "statusBar.background": "#111",
+    "statusBar.foreground": "#ccc"
+  },
+  "cSpell.words": [
+    "dtype",
+    "loadtxt"
+  ]
+}

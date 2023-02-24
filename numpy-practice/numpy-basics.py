@@ -1,4 +1,5 @@
 import numpy as np
+from numpy import random
 
 arr = np.array([1,2,3,4])
 # print(arr)
@@ -214,3 +215,24 @@ b
 # This beam pattern extend out with each dimension i think, i can't really visualize beyond 3d though
 # Remember dot() [dot product) is NOT the same as striaght multiplication, which just multiplies each
 #  corresponding element
+
+#-------------------------------
+# RANDOM NUMBERS
+# the 'random' library
+
+# Random distribution is even choice of any 0-1 num
+print(random.random())
+# normal is a bell curve distribution
+print(random.normal())
+
+# Use a seed value (no idea if 1 is good idea) to make sure that
+# each call is a random number, but from the start it is repeatable
+random.seed(1)
+print('-------------------------------')
+print('Same every time')
+print(random.random())
+print(random.normal())
+print(random.random())
+print(random.normal())
+# these always output the same random numbers now, but are different from each other
+#-------------------------------

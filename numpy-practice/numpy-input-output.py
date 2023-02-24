@@ -1,5 +1,6 @@
 import os
 import numpy as np
+from numpy import random
 from pathlib import Path
 
 # not sure this path is right, but it works
@@ -9,7 +10,7 @@ abc_file = Path(os.getcwd()) / 'input-output-practice' / 'abc.txt'
 a = np.loadtxt(abc_file)
 print(a)
 
-# assumming i could make a tab deliniated file, i could load it like this
+# assuming i could make a tab delineated file, i could load it like this
 # tab_file = Path(os.getcwd()) / 'input-output-practice' / 'abc_tab.txt'
 # b = np.loadtxt(tab_file)
 # print(b)
@@ -41,15 +42,26 @@ np.savetxt(new_abc_csv, a, delimiter=',', fmt='%d')
 # MULTIPLE ARRAYS PER FILE
 
 # notice how now we use .npz instead of .npy
-multi_file = Path(os.getcwd()) / 'input-output-practice' / 'multi.npz'
+multi_file_dict = Path(os.getcwd()) / 'input-output-practice' / 'multi.npz'
 
 # .savez to save now but still just .load to load
-np.savez(multi_file, a=a, c=c)
+np.savez(multi_file_dict, a=a, c=c)
 # the named arguments give us a dictionary like file
-q = np.load(multi_file)
+q = np.load(multi_file_dict)
 print(list(q.keys()))
 arrs = np.array([q['a'], q['c']])
 print(arrs)
 
-# we can just save the arrays as a list
+# we can just save the arrays with default names
+multi_file_list = Path(os.getcwd()) / 'input-output-practice' / 'multi_default_names.npz'
+
+np.savez(multi_file_list, a, c)
+q = np.load(multi_file_list)
+
+# the default is just arr_[num], so named keys seems better
+arrs = np.array([q['arr_0'], q['arr_1']])
+print(arrs)
+# You can also compress (lossless) files, it's a performance hit
+# this is savez_compressed
+
 
