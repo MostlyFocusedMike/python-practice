@@ -1,0 +1,475 @@
+[
+    {
+        "id": 1,
+        "type": "blast",
+        "date": "2021-05-06T04:00:00.000Z",
+        "name": "May Classes with availability",
+        "opens": 12.2,
+        "clicks": 1.1,
+        "sales": [
+            295,
+            165,
+            75
+        ],
+        "free": 0,
+        "unsubs": 4
+    },
+    {
+        "id": 2,
+        "type": "blast",
+        "date": "2021-05-05T04:00:00.000Z",
+        "name": "TGS Weekly Classes Wednesday Blast",
+        "opens": 11.6,
+        "clicks": 0.5,
+        "sales": [
+            295,
+            150,
+            150
+        ],
+        "free": 2,
+        "unsubs": 3
+    },
+    {
+        "id": 3,
+        "type": "ind",
+        "date": "2021-05-04T04:00:00.000Z",
+        "name": "Phantom of the Opera Resident Director",
+        "opens": 12,
+        "clicks": 0.1,
+        "sales": [
+            295
+        ],
+        "free": 0,
+        "unsubs": 4
+    },
+    {
+        "id": 4,
+        "type": "blast",
+        "date": "2021-05-03T04:00:00.000Z",
+        "name": "TGS Weekly Classes starting 5/3",
+        "opens": 13.2,
+        "clicks": 0.8,
+        "sales": [
+            365,
+            125,
+            345,
+            295
+        ],
+        "free": 4,
+        "unsubs": 5
+    },
+    {
+        "id": 5,
+        "type": "blast",
+        "date": "2021-05-03T04:00:00.000Z",
+        "name": "Tonight Acting for the Camera Level 1 Goals...",
+        "opens": 18.2,
+        "clicks": 0.2,
+        "sales": [
+            365,
+            335,
+            335,
+            335
+        ],
+        "free": 0,
+        "unsubs": 4
+    },
+    {
+        "id": 6,
+        "type": "ind",
+        "date": "2021-04-30T04:00:00.000Z",
+        "name": "Free Seminar",
+        "opens": 13.9,
+        "clicks": 1,
+        "sales": [
+            125,
+            100
+        ],
+        "free": 74
+    },
+    {
+        "id": 7,
+        "type": "ind",
+        "date": "2021-04-30T04:00:00.000Z",
+        "name": "Regional Theatre Series",
+        "opens": 14.5,
+        "clicks": 0.1,
+        "sales": [
+            325
+        ],
+        "free": 0
+    },
+    {
+        "id": 8,
+        "type": "ind",
+        "name": "Dance With Broadway",
+        "date": "2021-04-29T04:00:00.000Z",
+        "opens": 12.4,
+        "clicks": 0.2,
+        "sales": [
+            295
+        ],
+        "free": 1
+    },
+    {
+        "id": 9,
+        "type": "ind",
+        "name": "TV/Film Agent",
+        "date": "2021-04-29T04:00:00.000Z",
+        "opens": 12.4,
+        "clicks": 0.3,
+        "sales": [
+            301,
+            301,
+            301,
+            301,
+            301
+        ],
+        "free": 0
+    },
+    {
+        "id": 10,
+        "type": "ind",
+        "name": "Michael Greif Master Class (free)",
+        "date": "2021-04-26T04:00:00.000Z",
+        "opens": 14,
+        "clicks": 0.2,
+        "sales": [],
+        "free": 4
+    },
+    {
+        "id": 11,
+        "type": "ind",
+        "name": "Fosse Dance Workshop",
+        "date": "2021-04-28T04:00:00.000Z",
+        "opens": 12.2,
+        "clicks": 0.2,
+        "sales": [
+            150
+        ],
+        "free": 0
+    },
+    {
+        "id": 12,
+        "type": "ind",
+        "name": "Dear Evan Hansen",
+        "date": "2021-04-28T04:00:00.000Z",
+        "opens": 14.6,
+        "clicks": 0.2,
+        "sales": [
+            295,
+            295,
+            295
+        ],
+        "free": 0
+    },
+    {
+        "id": 13,
+        "type": "ind",
+        "name": "Duncan Stewart",
+        "date": "2021-04-27T04:00:00.000Z",
+        "opens": 24.5,
+        "clicks": 0.2,
+        "sales": [
+            350,
+            350,
+            350,
+            350
+        ],
+        "free": 2
+    },
+    {
+        "id": 14,
+        "type": "ind",
+        "name": "Phandom of the Opera",
+        "date": "2021-04-27T04:00:00.000Z",
+        "opens": 13.2,
+        "clicks": 0.2,
+        "sales": [
+            295,
+            295,
+            295,
+            295,
+            295
+        ],
+        "free": 0
+    },
+    {
+        "id": 15,
+        "type": "ind",
+        "name": "Regional Push",
+        "date": "2021-05-07T04:00:00.000Z",
+        "opens": 13.6,
+        "clicks": 0.2,
+        "sales": [],
+        "free": 0,
+        "unsubs": 6
+    },
+    {
+        "id": 16,
+        "type": "ind",
+        "name": "2 Spots left - MT CDW",
+        "date": "2021-05-09T04:00:00.000Z",
+        "opens": 10.4,
+        "clicks": 0.1,
+        "sales": [],
+        "free": 0,
+        "unsubs": 3
+    },
+    {
+        "id": 16,
+        "type": "ind",
+        "name": "Musical Theatre Casting Director Workshop MAY",
+        "date": "2021-04-27T04:00:00.000Z",
+        "opens": 14.8,
+        "clicks": 0.3,
+        "sales": [
+            3640
+        ],
+        "free": 0,
+        "unsubs": 4
+    },
+    {
+        "id": 17,
+        "type": "ind",
+        "name": "COMMERCIAL AGENT SHOWCASE",
+        "date": "2021-04-23T04:00:00.000Z",
+        "opens": 11.5,
+        "clicks": 0.1,
+        "sales": [
+            490
+        ],
+        "free": 0
+    },
+    {
+        "id": 18,
+        "type": "ind",
+        "name": "Blain Johnston TV/FILM Casting Gamechanger",
+        "date": "2021-04-23T04:00:00.000Z",
+        "opens": 21.2,
+        "clicks": 0.6,
+        "sales": [
+            1150
+        ],
+        "free": 0
+    },
+    {
+        "id": 19,
+        "type": "ind",
+        "name": "Voice Over Level 1",
+        "date": "2021-04-23T04:00:00.000Z",
+        "opens": 11.4,
+        "clicks": 0.1,
+        "sales": [
+            670
+        ],
+        "free": 0
+    },
+    {
+        "id": 20,
+        "type": "ind",
+        "name": "Harry Potter Push",
+        "date": "2021-04-22T04:00:00.000Z",
+        "opens": 15.2,
+        "clicks": 0.2,
+        "sales": [
+            125
+        ],
+        "free": 0
+    },
+    {
+        "id": 21,
+        "type": "ind",
+        "name": "MICHAEL GRIEF MASTER CLASS",
+        "date": "2021-04-21T04:00:00.000Z",
+        "opens": 13.4,
+        "clicks": 0.2,
+        "sales": [
+            295
+        ],
+        "free": 0
+    },
+    {
+        "id": 22,
+        "type": "ind",
+        "name": "Voice Over Animation Serries",
+        "date": "2021-04-20T04:00:00.000Z",
+        "opens": 11.7,
+        "clicks": 0.2,
+        "sales": [
+            275
+        ],
+        "free": 0
+    },
+    {
+        "id": 23,
+        "type": "ind",
+        "name": "DEAR EVEN HANSEN Resident director series ",
+        "date": "2021-04-22T04:00:00.000Z",
+        "opens": 11.9,
+        "clicks": 0.1,
+        "sales": [],
+        "free": 0
+    },
+    {
+        "id": 24,
+        "type": "ind",
+        "name": "DEAR EVEN HANSEN Resident director series",
+        "date": "2021-04-22T04:00:00.000Z",
+        "opens": 11.9,
+        "clicks": 0.1,
+        "sales": [],
+        "free": 0
+    },
+    {
+        "id": 25,
+        "type": "ind",
+        "name": "Acting for the Camera Level 1",
+        "date": "2021-04-19T04:00:00.000Z",
+        "opens": 22.8,
+        "clicks": 0.2,
+        "sales": [
+            200
+        ],
+        "free": 0
+    },
+    {
+        "id": 26,
+        "type": "ind",
+        "name": "TGS WEEKLY Classes starting 4/18",
+        "date": "2021-04-19T04:00:00.000Z",
+        "opens": 12.8,
+        "clicks": 0.8,
+        "sales": [
+            200
+        ],
+        "free": 0
+    },
+    {
+        "id": 27,
+        "type": "ind",
+        "name": "Royal Caribean Cruise Line",
+        "date": "2021-04-16T04:00:00.000Z",
+        "opens": 13.6,
+        "clicks": 0.1,
+        "sales": [
+            70
+        ],
+        "free": 0
+    },
+    {
+        "id": 28,
+        "type": "ind",
+        "name": "Acting for Cam / Voice Over Level 1 Section 2 PUSH",
+        "date": "2021-04-16T04:00:00.000Z",
+        "opens": 11.9,
+        "clicks": 0.2,
+        "sales": [],
+        "free": 0
+    },
+    {
+        "id": 29,
+        "type": "ind",
+        "name": "TV/Film Pilot Agent Series",
+        "date": "2021-04-15T04:00:00.000Z",
+        "opens": 12.7,
+        "clicks": 0.2,
+        "sales": [
+            2190
+        ],
+        "free": 0
+    },
+    {
+        "id": 30,
+        "type": "ind",
+        "name": "WICKED Resident Director Series",
+        "date": "2021-04-15T04:00:00.000Z",
+        "opens": 12.7,
+        "clicks": 0.2,
+        "sales": [
+            1755
+        ],
+        "free": 0
+    },
+    {
+        "id": 31,
+        "type": "ind",
+        "name": "Harry Potter and the Cursed Child",
+        "date": "2021-04-14T04:00:00.000Z",
+        "opens": 13.6,
+        "clicks": 0.2,
+        "sales": [
+            940
+        ],
+        "free": 0
+    },
+    {
+        "id": 32,
+        "type": "ind",
+        "name": "Non-Union National Tour Series",
+        "date": "2021-04-14T04:00:00.000Z",
+        "opens": 15.7,
+        "clicks": 0.2,
+        "sales": [
+            170
+        ],
+        "free": 0
+    },
+    {
+        "id": 33,
+        "type": "ind",
+        "name": "DES MCANUFF Master Class",
+        "date": "2021-04-12T04:00:00.000Z",
+        "opens": 13.3,
+        "clicks": 0.1,
+        "sales": [],
+        "free": 0
+    },
+    {
+        "id": 34,
+        "type": "ind",
+        "name": "NORWEGIAN CRUISE LINE",
+        "date": "2021-04-12T04:00:00.000Z",
+        "opens": 16.4,
+        "clicks": 0.3,
+        "sales": [
+            350
+        ],
+        "free": 0
+    },
+    {
+        "id": 36,
+        "type": "blast",
+        "name": "TGS Upcoming Available Classes",
+        "date": "2021-04-12T04:00:00.000Z",
+        "opens": 13.5,
+        "clicks": 0.7,
+        "sales": [
+            295,
+            295,
+            170,
+            335
+        ],
+        "free": 3
+    },
+    {
+        "id": 37,
+        "type": "ind",
+        "name": "Maria Torres Seminar Push",
+        "date": "2021-04-09T04:00:00.000Z",
+        "opens": 13,
+        "clicks": 0.2,
+        "sales": [],
+        "free": 0
+    },
+    {
+        "id": 38,
+        "type": "ind",
+        "name": "TGS MASTER CLASS SERIES",
+        "date": "2021-04-07T04:00:00.000Z",
+        "opens": 13.5,
+        "clicks": 0.3,
+        "sales": [],
+        "free": 0
+    }
+]

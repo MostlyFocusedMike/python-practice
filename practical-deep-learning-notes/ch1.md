@@ -143,6 +143,12 @@ $$
 \sigma = \sqrt{\frac{\sum_{i=1}^{n}(x_i - \bar x)^2} {n - 1}}
 $$
 
+Also written like
+$$
+s = \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2}
+$$
+(Remember, the sigma is like it's own parens)
+
 FINALLY to get the standard error it's
 
 $$
@@ -158,7 +164,7 @@ we can expect $\bar x$ which we don't technically know, to always be between $\b
 `descriptive statistics` are values derived from the data, the three we used , `mean`, `median` and `standard deviation` are common
 
 ### Standard Deviation more in depth
-- The $\frac{(stuff)}{(n-1)}$ bit in the standard deviation is because we're using a sample of the population (in this case of all flowers). If we truly had the entire population, we would just use $\frac{(stuff)}{(n)}$ instead
+- The $\frac{(stuff)}{(n-1)}$ n-1 bit in the standard deviation is because we're using a sample of the population (in this case of all flowers). If we truly had the entire population, we would just use $\frac{(stuff)}{(n)}$ instead
 - Also, this is the `standard` deviation, which uses the quadratic mean. There are other deviations, like `average absolute deviation` which takes all the absolute differences from the mean and averages them
 
   $$

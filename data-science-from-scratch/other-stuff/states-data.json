@@ -1,0 +1,502 @@
+[
+    {
+        "name": "Alabama",
+        "initials": "AL",
+        "oneShot": 30,
+        "twoShots": 19,
+        "dosesDelivered": 3664640,
+        "dosesGiven": 2280686,
+        "population": 4921532,
+        "wasBiden": false
+    },
+    {
+        "name": "Alaska",
+        "initials": "AK",
+        "oneShot": 39,
+        "twoShots": 32,
+        "dosesDelivered": 746705,
+        "dosesGiven": 509843,
+        "population": 731158,
+        "wasBiden": false
+    },
+    {
+        "name": "Arizona",
+        "initials": "AZ",
+        "oneShot": 37,
+        "twoShots": 24,
+        "dosesDelivered": 5732985,
+        "dosesGiven": 4440592,
+        "population": 7421401,
+        "wasBiden": true
+    },
+    {
+        "name": "Arkansas",
+        "initials": "AR",
+        "oneShot": 33,
+        "twoShots": 21,
+        "dosesDelivered": 2370830,
+        "dosesGiven": 1585770,
+        "population": 3030522,
+        "wasBiden": false
+    },
+    {
+        "name": "California",
+        "initials": "CA",
+        "oneShot": 42,
+        "twoShots": 24,
+        "dosesDelivered": 32618010,
+        "dosesGiven": 25569748,
+        "population": 39368078,
+        "wasBiden": true
+    },
+    {
+        "name": "Colorado",
+        "initials": "CO",
+        "oneShot": 41,
+        "twoShots": 25,
+        "dosesDelivered": 4515250,
+        "dosesGiven": 3714665,
+        "population": 5807719,
+        "wasBiden": true
+    },
+    {
+        "name": "Connecticut",
+        "initials": "CT",
+        "oneShot": 48,
+        "twoShots": 31,
+        "dosesDelivered": 3395165,
+        "dosesGiven": 2720972,
+        "population": 3557006,
+        "wasBiden": true
+    },
+    {
+        "name": "Delaware",
+        "initials": "DE",
+        "oneShot": 41,
+        "twoShots": 25,
+        "dosesDelivered": 818475,
+        "dosesGiven": 637222,
+        "population": 986809,
+        "wasBiden": true
+    },
+    {
+        "name": "Florida",
+        "initials": "FL",
+        "oneShot": 37,
+        "twoShots": 24,
+        "dosesDelivered": 17807745,
+        "dosesGiven": 13029551,
+        "population": 21733312,
+        "wasBiden": false
+    },
+    {
+        "name": "Georgia",
+        "initials": "GA",
+        "oneShot": 32,
+        "twoShots": 19,
+        "dosesDelivered": 8033225,
+        "dosesGiven": 5366914,
+        "population": 10710017,
+        "wasBiden": true
+    },
+    {
+        "name": "Hawaii",
+        "initials": "HI",
+        "oneShot": 39,
+        "twoShots": 28,
+        "dosesDelivered": 1269070,
+        "dosesGiven": 923883,
+        "population": 1407006,
+        "wasBiden": true
+    },
+    {
+        "name": "Idaho",
+        "initials": "ID",
+        "oneShot": 32,
+        "twoShots": 23,
+        "dosesDelivered": 1283065,
+        "dosesGiven": 959118,
+        "population": 1826913,
+        "wasBiden": false
+    },
+    {
+        "name": "Illinois",
+        "initials": "IL",
+        "oneShot": 41,
+        "twoShots": 24,
+        "dosesDelivered": 10246165,
+        "dosesGiven": 8027611,
+        "population": 12587530,
+        "wasBiden": true
+    },
+    {
+        "name": "Indiana",
+        "initials": "IN",
+        "oneShot": 33,
+        "twoShots": 22,
+        "dosesDelivered": 4775740,
+        "dosesGiven": 3634597,
+        "population": 6754953,
+        "wasBiden": false
+    },
+    {
+        "name": "Iowa",
+        "initials": "IA",
+        "oneShot": 40,
+        "twoShots": 28,
+        "dosesDelivered": 2481445,
+        "dosesGiven": 2070119,
+        "population": 3163561,
+        "wasBiden": false
+    },
+    {
+        "name": "Kansas",
+        "initials": "KS",
+        "oneShot": 40,
+        "twoShots": 26,
+        "dosesDelivered": 2361115,
+        "dosesGiven": 1790051,
+        "population": 2913805,
+        "wasBiden": false
+    },
+    {
+        "name": "Kentucky",
+        "initials": "KY",
+        "oneShot": 38,
+        "twoShots": 27,
+        "dosesDelivered": 3429305,
+        "dosesGiven": 2802064,
+        "population": 4477251,
+        "wasBiden": false
+    },
+    {
+        "name": "Louisiana",
+        "initials": "LA",
+        "oneShot": 31,
+        "twoShots": 23,
+        "dosesDelivered": 3513250,
+        "dosesGiven": 2460469,
+        "population": 4645318,
+        "wasBiden": false
+    },
+    {
+        "name": "Maine",
+        "initials": "ME",
+        "oneShot": 49,
+        "twoShots": 32,
+        "dosesDelivered": 1144750,
+        "dosesGiven": 1006549,
+        "population": 1350141,
+        "wasBiden": true
+    },
+    {
+        "name": "Maryland",
+        "initials": "MD",
+        "oneShot": 42,
+        "twoShots": 27,
+        "dosesDelivered": 4967520,
+        "dosesGiven": 3924960,
+        "population": 6055802,
+        "wasBiden": true
+    },
+    {
+        "name": "Massachusetts",
+        "initials": "MA",
+        "oneShot": 48,
+        "twoShots": 29,
+        "dosesDelivered": 5967370,
+        "dosesGiven": 5080279,
+        "population": 6893574,
+        "wasBiden": true
+    },
+    {
+        "name": "Michigan",
+        "initials": "MI",
+        "oneShot": 38,
+        "twoShots": 25,
+        "dosesDelivered": 7872710,
+        "dosesGiven": 6045853,
+        "population": 9966555,
+        "wasBiden": true
+    },
+    {
+        "name": "Minnesota",
+        "initials": "MN",
+        "oneShot": 42,
+        "twoShots": 28,
+        "dosesDelivered": 4194140,
+        "dosesGiven": 3712223,
+        "population": 5657342,
+        "wasBiden": true
+    },
+    {
+        "name": "Mississippi",
+        "initials": "MS",
+        "oneShot": 29,
+        "twoShots": 21,
+        "dosesDelivered": 2246015,
+        "dosesGiven": 1430205,
+        "population": 2966786,
+        "wasBiden": false
+    },
+    {
+        "name": "Missouri",
+        "initials": "MO",
+        "oneShot": 34,
+        "twoShots": 23,
+        "dosesDelivered": 4715505,
+        "dosesGiven": 3436756,
+        "population": 6151548,
+        "wasBiden": false
+    },
+    {
+        "name": "Montana",
+        "initials": "MT",
+        "oneShot": 38,
+        "twoShots": 27,
+        "dosesDelivered": 899445,
+        "dosesGiven": 677644,
+        "population": 1080577,
+        "wasBiden": false
+    },
+    {
+        "name": "Nebraska",
+        "initials": "NE",
+        "oneShot": 40,
+        "twoShots": 27,
+        "dosesDelivered": 1556360,
+        "dosesGiven": 1256376,
+        "population": 1937552,
+        "wasBiden": false
+    },
+    {
+        "name": "Nevada",
+        "initials": "NV",
+        "oneShot": 36,
+        "twoShots": 23,
+        "dosesDelivered": 2202110,
+        "dosesGiven": 1803308,
+        "population": 3138259,
+        "wasBiden": true
+    },
+    {
+        "name": "New Hampshire",
+        "initials": "NH",
+        "oneShot": 58,
+        "twoShots": 28,
+        "dosesDelivered": 1096375,
+        "dosesGiven": 1088613,
+        "population": 1366275,
+        "wasBiden": true
+    },
+    {
+        "name": "New Jersey",
+        "initials": "NJ",
+        "oneShot": 45,
+        "twoShots": 29,
+        "dosesDelivered": 7169475,
+        "dosesGiven": 6188717,
+        "population": 8882371,
+        "wasBiden": true
+    },
+    {
+        "name": "New Mexico",
+        "initials": "NM",
+        "oneShot": 47,
+        "twoShots": 32,
+        "dosesDelivered": 1882565,
+        "dosesGiven": 1606321,
+        "population": 2106319,
+        "wasBiden": true
+    },
+    {
+        "name": "New York",
+        "initials": "NY",
+        "oneShot": 42,
+        "twoShots": 28,
+        "dosesDelivered": 16098245,
+        "dosesGiven": 13277087,
+        "population": 19336776,
+        "wasBiden": true
+    },
+    {
+        "name": "North Carolina",
+        "initials": "NC",
+        "oneShot": 36,
+        "twoShots": 24,
+        "dosesDelivered": 8309510,
+        "dosesGiven": 6148077,
+        "population": 10600823,
+        "wasBiden": false
+    },
+    {
+        "name": "North Dakota",
+        "initials": "ND",
+        "oneShot": 38,
+        "twoShots": 29,
+        "dosesDelivered": 590480,
+        "dosesGiven": 519718,
+        "population": 765309,
+        "wasBiden": false
+    },
+    {
+        "name": "Ohio",
+        "initials": "OH",
+        "oneShot": 37,
+        "twoShots": 26,
+        "dosesDelivered": 9214895,
+        "dosesGiven": 7226775,
+        "population": 11693217,
+        "wasBiden": false
+    },
+    {
+        "name": "Oklahoma",
+        "initials": "OK",
+        "oneShot": 37,
+        "twoShots": 26,
+        "dosesDelivered": 3385565,
+        "dosesGiven": 2444413,
+        "population": 3980783,
+        "wasBiden": false
+    },
+    {
+        "name": "Oregon",
+        "initials": "OR",
+        "oneShot": 38,
+        "twoShots": 24,
+        "dosesDelivered": 3219255,
+        "dosesGiven": 2549615,
+        "population": 4241507,
+        "wasBiden": true
+    },
+    {
+        "name": "Pennsylvania",
+        "initials": "PA",
+        "oneShot": 43,
+        "twoShots": 26,
+        "dosesDelivered": 10649235,
+        "dosesGiven": 8391487,
+        "population": 12783254,
+        "wasBiden": true
+    },
+    {
+        "name": "Rhode Island",
+        "initials": "RI",
+        "oneShot": 44,
+        "twoShots": 31,
+        "dosesDelivered": 895785,
+        "dosesGiven": 764641,
+        "population": 1057125,
+        "wasBiden": true
+    },
+    {
+        "name": "South Carolina",
+        "initials": "SC",
+        "oneShot": 34,
+        "twoShots": 23,
+        "dosesDelivered": 3914045,
+        "dosesGiven": 2866181,
+        "population": 5218040,
+        "wasBiden": false
+    },
+    {
+        "name": "South Dakota",
+        "initials": "SD",
+        "oneShot": 43,
+        "twoShots": 31,
+        "dosesDelivered": 802795,
+        "dosesGiven": 627721,
+        "population": 892717,
+        "wasBiden": false
+    },
+    {
+        "name": "Tennessee",
+        "initials": "TN",
+        "oneShot": 32,
+        "twoShots": 20,
+        "dosesDelivered": 5103860,
+        "dosesGiven": 3501468,
+        "population": 6886834,
+        "wasBiden": false
+    },
+    {
+        "name": "Texas",
+        "initials": "TX",
+        "oneShot": 35,
+        "twoShots": 22,
+        "dosesDelivered": 21453555,
+        "dosesGiven": 16419173,
+        "population": 29360759,
+        "wasBiden": false
+    },
+    {
+        "name": "Utah",
+        "initials": "UT",
+        "oneShot": 35,
+        "twoShots": 19,
+        "dosesDelivered": 2166920,
+        "dosesGiven": 1871042,
+        "population": 3249879,
+        "wasBiden": false
+    },
+    {
+        "name": "Vermont",
+        "initials": "VT",
+        "oneShot": 46,
+        "twoShots": 30,
+        "dosesDelivered": 570360,
+        "dosesGiven": 456714,
+        "population": 623347,
+        "wasBiden": true
+    },
+    {
+        "name": "Virginia",
+        "initials": "VA",
+        "oneShot": 42,
+        "twoShots": 26,
+        "dosesDelivered": 6777945,
+        "dosesGiven": 5593318,
+        "population": 8590563,
+        "wasBiden": true
+    },
+    {
+        "name": "Washington",
+        "initials": "WA",
+        "oneShot": 40,
+        "twoShots": 26,
+        "dosesDelivered": 5999170,
+        "dosesGiven": 4874563,
+        "population": 7693612,
+        "wasBiden": true
+    },
+    {
+        "name": "West Virginia",
+        "initials": "WV",
+        "oneShot": 34,
+        "twoShots": 26,
+        "dosesDelivered": 1522165,
+        "dosesGiven": 1079184,
+        "population": 1784787,
+        "wasBiden": false
+    },
+    {
+        "name": "Wisconsin",
+        "initials": "WI",
+        "oneShot": 42,
+        "twoShots": 28,
+        "dosesDelivered": 4542195,
+        "dosesGiven": 3982152,
+        "population": 5832655,
+        "wasBiden": true
+    },
+    {
+        "name": "Wyoming",
+        "initials": "WY",
+        "oneShot": 32,
+        "twoShots": 24,
+        "dosesDelivered": 468615,
+        "dosesGiven": 323593,
+        "population": 582328,
+        "wasBiden": false
+    }
+]

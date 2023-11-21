@@ -18,7 +18,7 @@ arr = np.array([1,2,3,4])
 
 # create a np array using a range, which is (0->(n-1)) or (x -> (n-1))
 ten = np.arange(10) # 0 - 9
-four = np.arange(1,3) # 1 - 3
+four = np.arange(1,3) # 1 - 2
 # print('TEN: ', ten)
 
 

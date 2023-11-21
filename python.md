@@ -24,9 +24,12 @@ https://opensource.com/article/20/4/pyenv
 
 Virtual environments allow us to install specific versions in certain directories
 
-source path/to/venv/bin/activate
+cd numpy-practice
+source ./venv/bin/activate
 
-is how you get the one you wrote started
+is how you get the one you wrote started in numpy. You just need to get to the venv/bin/activate executable
+
+To exit, simply enter `deactivate` while in the virtual environment
 
 ## Running the file
 just use nodemon
