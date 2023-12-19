@@ -35,7 +35,7 @@ https://towardsdatascience.com/python-environment-101-1d68bda3094d
     eval "$(pyenv init -)"
     ```
 
-  Which you then copy into .bash_profile
+  Which you then copy into .bash_profile (this is copied into your .zshrc already)
 
 - `pyenv install -l` list out all versions
 - `pyenv version` shows the current version in use
@@ -56,6 +56,8 @@ https://docs.python.org/3/tutorial/venv.html
 - to delete, remove the `tutorial-env` file
 
 `source dsfs/bin/activate` is the one for the book
+
+The main environemnt is "main-python-env" so to start its: `source main-python-env/bin/activate` in the root of the project.
 
 
 ## Installing packages
